@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "czPFIaIWiraz+PGkhs+T/+3V0MU73NpnlspNrolJLxs=",
+  "Source": "NexusTasks.API",
+  "BasePath": "_content/NexusTasks.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

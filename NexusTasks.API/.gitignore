@@ -1,0 +1,33 @@
+# Frontend
+nexustasks-frontend/node_modules/
+nexustasks-frontend/dist/
+nexustasks-frontend/.env
+nexustasks-frontend/.env.local
+
+# Backend
+NexusTasks.API/bin/
+NexusTasks.API/obj/
+NexusTasks.API/appsettings.Development.json
+NexusTasks.API/appsettings.json
+*.user
+*.suo
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
