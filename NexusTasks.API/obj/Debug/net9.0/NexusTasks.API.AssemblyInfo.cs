@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NexusTasks.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa88cbc8fc29b6850adb3fa509fb6b9cebc179e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("NexusTasks.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NexusTasks.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
