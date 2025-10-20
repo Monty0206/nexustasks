@@ -45,9 +45,24 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Get connection string from DATABASE_URL (Railway) or DefaultConnection (local)
-var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL") 
-    ?? builder.Configuration.GetConnectionString("DefaultConnection")
-    ?? throw new InvalidOperationException("Database connection string not configured");
+var connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+if (string.IsNullOrEmpty(connectionString))
+{
+    connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+}
+else
+{
+    // Parse Railway DATABASE_URL format: postgres://user:pass@host:port/dbname
+    // Convert to Npgsql format: Host=host;Port=port;Database=dbname;Username=user;Password=pass
+    var databaseUri = new Uri(connectionString);
+    var userInfo = databaseUri.UserInfo.Split('':'');
+    connectionString = $"Host={databaseUri.Host};Port={databaseUri.Port};Database={databaseUri.AbsolutePath.TrimStart(''/'')};Username={userInfo[0]};Password={userInfo[1]};SSL Mode=Require;Trust Server Certificate=true";
+}
+
+if (string.IsNullOrEmpty(connectionString))
+{
+    throw new InvalidOperationException("Database connection string not configured");
+}
 
 // Add Database Context
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
