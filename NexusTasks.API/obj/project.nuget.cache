@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DY7ssGDR0pg=",
+  "dgSpecHash": "IKBkUM8LC/A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Montell Boks\\NexusTasks\\NexusTasks.API\\NexusTasks.API.csproj",
+  "projectFilePath": "C:\\Users\\Montell Boks\\Desktop\\nexustasks\\NexusTasks.API\\NexusTasks.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Montell Boks\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Montell Boks\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -77,6 +77,8 @@
     "C:\\Users\\Montell Boks\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Montell Boks\\.nuget\\packages\\mono.texttemplating\\3.0.0\\mono.texttemplating.3.0.0.nupkg.sha512",
     "C:\\Users\\Montell Boks\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Montell Boks\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
+    "C:\\Users\\Montell Boks\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.4\\npgsql.entityframeworkcore.postgresql.9.0.4.nupkg.sha512",
     "C:\\Users\\Montell Boks\\.nuget\\packages\\swashbuckle.aspnetcore\\9.0.6\\swashbuckle.aspnetcore.9.0.6.nupkg.sha512",
     "C:\\Users\\Montell Boks\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\9.0.6\\swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",
     "C:\\Users\\Montell Boks\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.6\\swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
